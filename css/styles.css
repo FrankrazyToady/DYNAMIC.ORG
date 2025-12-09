@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background: #333;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 00.5em 1em;
+}
+
+nav a:hover {
+  background: #555;
+  border-radius: 4px;
+}
+
+#profile-icon {
+  cursor: pointer;
+  position: relative;
+}
+
+#profile-icon ul {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: #333;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+#profile-icon:hover ul {
+  display: block;
+}
+
+header {
+  text-align: center;
+  padding: 2em;
+  background: #f4f4f4;
+}
